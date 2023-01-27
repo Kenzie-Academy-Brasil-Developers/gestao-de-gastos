@@ -1,0 +1,417 @@
+
+
+body{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100vw;
+  box-sizing: border-box;
+
+ 
+
+}
+
+main{
+  box-sizing: border-box;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 10px;
+
+  padding: 0 10px;
+
+    
+  margin: 0 auto;
+
+  width: 100vw;
+  max-width: 1200px;
+
+  
+  height: 90vh;
+  
+
+
+}
+
+main section{
+  
+  box-sizing: border-box;
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+
+}
+
+
+
+.displayOff{
+  display: none;
+}
+
+.section__logo {
+
+  max-width: 380px;
+  gap: 30px;
+
+}
+
+.section__logo h1 {
+  font-size: 24px ;
+  margin: 0;
+}
+
+.section__logo h1 span {
+
+  color: #FD377E;
+  
+
+}
+
+
+.section__logo h2 {
+  margin: 0;
+  font-size: 38px ;
+  line-height: 150%;
+}
+
+.section__logo button {
+  height: 48px;
+  width: 241px;
+  left: 256px;
+  top: 490px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  
+  background-color: #FD377E;
+
+}
+
+.section__img img{
+
+  max-width: 380px;
+
+}
+
+@media (max-width: 700px) {
+
+  main{
+    gap: 50px;
+    margin-top: 0;
+    flex-direction: column;
+  
+  }
+  
+  .section__logo button {
+ 
+    width: 100%;
+   
+  
+  }
+
+  .section__img img{
+
+    max-width: 100%;
+    
+  
+  }
+
+}
+
+
+/* Page 2 */
+
+header{
+
+  width: 100vw;
+  height: 88px;
+  box-shadow: 0px 0px 5px  rgb(197, 196, 196);
+
+  display: flex;
+
+  box-sizing: border-box;
+  
+}
+
+.container__header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+
+  width: 90%;
+  max-width: 1200px;
+
+  z-index: 1;
+ 
+}
+
+header h1 {
+  font-size: 24px ;
+  margin: 0;
+  color: black;
+  
+}
+
+header h1 span {
+
+  color: #FD377E;
+  
+
+}
+
+.section__form__lancamentos{
+
+  width: 40%;
+  max-width: 100%;
+
+  margin-top: 50px;
+  align-self: baseline;
+  
+  border-radius: 4px;
+}
+
+.form__lancamentos{
+
+  
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+
+  padding: 50px 20px;
+
+  box-shadow: 0px 0px 5px  rgb(172, 171, 171);
+
+  color: rgb(75, 75, 75);
+
+  width: 100%;
+  max-width: 500px;
+
+}
+
+
+
+.form__lancamentos div{
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+
+
+.form__lancamentos input , select{
+  
+background: none;
+border: 1px solid rgba(129, 128, 128, 0.178);
+border-radius: 4px;
+font-size: 24px;
+padding: 10px;
+
+max-width: 100%;
+  
+color: rgb(102, 102, 102);
+
+
+}
+
+.form__lancamentos span{
+  
+  font-size: 12px;
+  
+}
+
+#inputs_div-2{
+  
+  flex-direction: row;
+  width: 100%;
+  
+
+}
+
+#inputs_div-2 div{
+  
+ width: 50%;
+
+}
+
+
+
+.butonInserirValor{
+  background-color: #FD377E;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px 0;
+
+}
+
+
+/* section__lancamentos */
+
+
+.section__lancamentos{
+  width: 55%;
+  align-self: flex-start;
+  margin-top: 45px;
+  color: rgb(83, 81, 81);
+}
+
+.section__lancamentos ul{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-x: hidden;
+  max-height: 450px;
+
+
+}
+
+.total__despesas{
+
+  width: 100%;
+  max-width: 500px;
+
+  margin-top: 20px;
+
+
+ 
+  border:solid 1px rgb(85, 84, 84);
+  border-radius: 4px;
+  color: rgb(83, 81, 81);
+
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.total__despesas div{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.total__despesas > span{
+
+font-size: 12px;
+
+}
+
+.total__despesas div span + span{
+
+font-weight: 600;
+color: #FD377E;
+
+
+
+}
+
+
+
+.buttonRemove{
+
+ width: 13px;
+ padding: 10px;
+ background-color: rgb(192, 190, 190);
+ border-radius: 4px;
+
+}
+
+.buttonRemove:hover{
+  background-color:  rgb(216, 171, 171);
+}
+
+.list__deslesas div{
+
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+
+
+}
+
+ul{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.list__deslesas{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border-left:solid rgb(0, 255, 149) 4px;
+}
+
+.list__deslesas h2{
+
+  font-size: 18px;
+  margin: 0;
+
+}
+
+.list__deslesas > span{
+
+  font-size: 14px;
+
+}
+
+.list__saida{
+
+  border-left:solid rgb(168, 167, 167) 4px;
+
+}
+
+
+.barraTransversal2{
+
+  width: 100px;
+
+}
+
+
+@media (max-width: 821px) {
+
+.mainPage--2{
+
+  flex-direction: column;
+
+}
+
+.section__form__lancamentos{
+
+  margin-top: 50px;
+
+  width: 100%;
+  align-items: center;
+
+}
+
+.section__lancamentos{
+
+  margin-top: 50px;
+  width: 100%;
+  align-items: center;
+
+}
+
+}
