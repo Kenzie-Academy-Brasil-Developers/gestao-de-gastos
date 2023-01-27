@@ -6,10 +6,6 @@ export function ValorTotal ({despesas}){
 
     let entradaSomada = entrada.reduce((acumulador , valorAtual ) => acumulador + valorAtual.valor , 0 )
     let saidaSomada = saida.reduce((acumulador , valorAtual ) => acumulador + valorAtual.valor , 0 )
-   
-    console.log(entradaSomada)
-   
-    
 
     return(
 

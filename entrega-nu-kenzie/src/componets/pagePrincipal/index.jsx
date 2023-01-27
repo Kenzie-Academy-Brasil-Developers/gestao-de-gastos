@@ -1,10 +1,12 @@
+import  img  from "/src/assets/img/imagemInicio.png"
+
 
 export function PageInicial ({setPrincipal}){
 
     const inicializar = () => {
 
         setPrincipal(false)
-        document.querySelector("body").style.backgroundColor = "#F8F9FA"
+        document.querySelector("body").style.backgroundColor = "#FFFFFF"
     
     
       }
@@ -28,7 +30,7 @@ export function PageInicial ({setPrincipal}){
 
         <section className='section__img'>
 
-            <img src="../src/assets/img/imagemInicio.png" alt="imagem" />
+            <img src= {img} alt="imagem" />
 
         </section>
 

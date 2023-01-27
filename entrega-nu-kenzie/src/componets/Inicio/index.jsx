@@ -10,7 +10,7 @@ export function PagePrincipal({setHome}) {
     const  voltarInicio = () => {
 
       setHome(true)
-      document.querySelector("body").style.backgroundColor = " #343A40"
+      document.querySelector("body").style.backgroundColor = "#212529"
     
     }
 
@@ -59,7 +59,7 @@ export function PagePrincipal({setHome}) {
 
               <div>
                   <label htmlFor="valor">Valor</label>
-                  <input onChange={(e => console.log(e.target.value))} name='valor' type="number" />
+                  <input name='valor' type="number" />
               </div>
 
               <div>
@@ -84,8 +84,6 @@ export function PagePrincipal({setHome}) {
 
           <span>Resumo financeiro</span>
           
-          
-
           <ul>
 
             {

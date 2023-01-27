@@ -1,21 +1,16 @@
+import img from "/src/assets/img/lixeira.png"
+
 export function CardDespesa ({despesaObj , despesa , setDespesa}){
 
  
     function remove (e) {
 
-       
-
-
-        console.log(e.target)
-
         const newArr =  despesa.filter( (event) => event.id != e.target.id)
 
-        console.log(e.target.id)
         setDespesa(newArr)
 
     }
 
-    console.log(despesa)
     return(
 
         despesaObj.tipo == "entrada" ? 
@@ -27,7 +22,7 @@ export function CardDespesa ({despesaObj , despesa , setDespesa}){
             <h2>{despesaObj.descricao}</h2>
 
                 <span>R$ {despesaObj.valor}</span>
-                <img id={despesaObj.id} onClick={remove} className='buttonRemove' src="../src/assets/img/lixeira.png" alt="lixeira" />
+                <img id={despesaObj.id} onClick={remove} className='buttonRemove' src={img} alt="lixeira" />
             
             </div>
 
@@ -44,19 +39,13 @@ export function CardDespesa ({despesaObj , despesa , setDespesa}){
         <h2>{despesaObj.descricao}</h2>
 
             <span>R$ {despesaObj.valor}</span>
-            <img id={despesaObj.id} onClick={remove} className='buttonRemove' src="../src/assets/img/lixeira.png" alt="lixeira" />
+            <img id={despesaObj.id} onClick={remove} className='buttonRemove' src={img} alt="lixeira" />
         
         </div>
 
         <span>{despesaObj.tipo}</span>
 
     </li>
-
-       
-      
-
-       
-
 
     )
 

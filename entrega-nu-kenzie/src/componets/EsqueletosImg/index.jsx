@@ -1,3 +1,5 @@
+import esqueleto_1  from "/src/assets/img/barraTransversal1.png"
+import esqueleto_2  from "/src/assets/img/barraTransversal2.png"
 
 export function EsqueletoImagens() {
 
@@ -8,22 +10,22 @@ export function EsqueletoImagens() {
 
         <li className='list__deslesas list__saida'>
 
-            <img src="../../src/assets/img/barraTransversal1.png" alt="esqueleto" />
-            <img className="barraTransversal2" src="../../src/assets/img/barraTransversal2.png" alt="esqueleto" />
+            <img src= {esqueleto_1} />
+            <img className="barraTransversal2" src={esqueleto_2} alt="esqueleto" />
         
         </li>
 
         <li className='list__deslesas list__saida'>
 
-            <img src="../../src/assets/img/barraTransversal1.png" alt="esqueleto" />
-            <img className="barraTransversal2" src="../../src/assets/img/barraTransversal2.png" alt="esqueleto" />
+            <img src= {esqueleto_1} />
+            <img className="barraTransversal2" src={esqueleto_2} alt="esqueleto" />
 
         </li>
 
         <li className='list__deslesas list__saida'>
 
-            <img src="../../src/assets/img/barraTransversal1.png" alt="esqueleto" />
-            <img className="barraTransversal2" src="../../src/assets/img/barraTransversal2.png" alt="esqueleto" />
+            <img src= {esqueleto_1} />
+            <img className="barraTransversal2" src={esqueleto_2} alt="esqueleto" />
 
         </li>
 
