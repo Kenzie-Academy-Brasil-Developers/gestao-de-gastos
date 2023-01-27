@@ -414,4 +414,32 @@ ul{
 
 }
 
+
+
+ul{
+  width: 90%;
+}
+
+.list__deslesas div{
+
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+
+#inputs_div-2{
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+
+#inputs_div-2 div{
+ 
+
+  width: 100%;
+}
+
+
 }
