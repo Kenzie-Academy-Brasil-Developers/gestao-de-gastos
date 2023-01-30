@@ -9,7 +9,7 @@ export function ValorTotal ({despesas}){
 
     return(
 
-        entradaSomada != 0 ?
+        entradaSomada != 0 || saidaSomada != 0 ?
 
         <div className='total__despesas'>
             <div>

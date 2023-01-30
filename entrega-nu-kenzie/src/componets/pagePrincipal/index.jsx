@@ -7,8 +7,7 @@ export function PageInicial ({setPrincipal}){
 
         setPrincipal(false)
         document.querySelector("body").style.backgroundColor = "#FFFFFF"
-    
-    
+
       }
 
 

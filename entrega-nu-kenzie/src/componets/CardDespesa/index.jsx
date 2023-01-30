@@ -2,7 +2,6 @@ import img from "/src/assets/img/lixeira.png"
 
 export function CardDespesa ({despesaObj , despesa , setDespesa}){
 
- 
     function remove (e) {
 
         const newArr =  despesa.filter( (event) => event.id != e.target.id)
